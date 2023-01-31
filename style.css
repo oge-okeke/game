@@ -6,13 +6,13 @@
         <meta name="author" content="Oge Okeke">
         <title>Game</title>
         <link rel="stylesheet" href="style.css">
-<body style="background-color:lavender;">
-
   
     </head>
     <body>
 
 #topNav {
+    <body style="background-color:lavender;">
+
   background:slateblue;
   box-shadow: 0px 1px 10px 10px darkblue;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
