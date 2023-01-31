@@ -1,5 +1,5 @@
 body {
-  background-color: lavender;
+  background-color: blue;
   font-family: Helvetica;
   max-width: 900px;
   margin-left: auto;
@@ -8,7 +8,7 @@ body {
 
 #topNav {
 
-  background:slateblue;
+  background:green;
   box-shadow: 0px 1px 10px 10px darkblue;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
   height: auto;
