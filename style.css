@@ -33,6 +33,9 @@ body {
 
 /* To use this example CSS code copy-and-paste it into your style.css file */
 
+h1 {
+  text-align: center;
+}
 
 h2 {
   text-align: center;
