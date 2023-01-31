@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Oge Okeke">
-        <title>Game</title>
-        <link rel="stylesheet" href="style.css">
-  
-    </head>
-    <body>
+body {
+  background-color: lavender;
+  font-family: Helvetica;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #topNav {
-    <body style="background-color:lavender;">
 
   background:slateblue;
   box-shadow: 0px 1px 10px 10px darkblue;
@@ -39,12 +34,6 @@
 
 /* To use this example CSS code copy-and-paste it into your style.css file */
 
-body {
-  font-family: Helvetica;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 h2 {
   text-align: center;
