@@ -18,7 +18,7 @@ def on_mouse_down(pos):
     if person.collidepoint(pos):
         sounds.clicked.play()
         person.image = 'gamergirlclick'
-        clock.schedule_unique(set_person_normal, 1.0)
+        clock.schedule_unique(set_person_normal, 0.6)
 
 def set_person_normal():
     person.image = 'gamergirl'
