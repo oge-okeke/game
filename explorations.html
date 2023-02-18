@@ -70,7 +70,15 @@
     to reach the highest score possible within 10 seconds without missing the turkey. This game is fun because it tests for accuracy and precision. Below is some piece of code that directly shows how I incorporated score keeping in the game which is a new skill that I learned on Youtube.  </p>
 
 <pre>
-  if game_over:
-    sounds.womp_womp.play()
+  def draw():
+    if game_over:
+        screen.draw.text("Final Score: " + str(score), topleft=(10, 10), fontsize=60)
+
+    else:
+        screen.fill("green")
+        screen.clear()
+        turkey.draw()
+        screen.draw.text("Score: " + str(score), color="blue", topleft=(10, 10))
+
 </pre>
  
