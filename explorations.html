@@ -65,23 +65,26 @@
             <center>
         
 <h2 id ="video">Video Game Exploration</h2>
-<p>While discovering more about creating a video game, I knew that I wanted it to be fun and interactive. I derived some of the code from the examples given in class.
+                <p> Here is some code to be explained below <p>
+                
+<pre>
+  def draw():
+    if game_over:
+        screen.draw.text("Final Score: " + str(score), topleft=(10, 10), fontsize=60)
+          else:
+        screen.fill("green")
+        screen.clear()
+        turkey.draw()
+        screen.draw.text("Score: " + str(score), color="blue", topleft=(10, 10))
+ </pre>
+                
+<p> While discovering more about creating a video game, I knew that I wanted it to be fun and interactive. I derived some of the code from the examples given in class.
   I created a game called "shoot the turkey." In this game, it requires a player to click a turkey that will appear at random places on the screen. The objective is 
     to reach the highest score possible within ten seconds without missing the turkey. This game is fun because it tests for accuracy and precision. Below is some piece
     of code that directly shows how I incorporated score keeping in the game which is a new skill that I learned on Youtube. The code below reads as follows:
     draw on the screen the final score as a string when the game is over. Draw the final score at the top left corner with the font size 60. 
     Else, if the game is not over, draw on the screen the current score during the ongoing game.</p>
                 
-<pre>
-  def draw():
-    if game_over:
-        screen.draw.text("Final Score: " + str(score), topleft=(10, 10), fontsize=60)
+  
 
-    else:
-        screen.fill("green")
-        screen.clear()
-        turkey.draw()
-        screen.draw.text("Score: " + str(score), color="blue", topleft=(10, 10))
-
-</pre>
  
